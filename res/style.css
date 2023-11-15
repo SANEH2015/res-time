@@ -1,0 +1,331 @@
+ body{
+  background-color: hsl(226,43%,10%);
+  color: aliceblue;
+  display: grid;
+  place-items:center;
+  min-height: 100vh;
+  padding: 1rem;
+  font-family:'Rubik',
+}
+.grib-container{
+ 
+  /* flex-wrap: wrap; */
+  /* gap: clamp(1rem,3vw, 2rem); */
+  margin: 10px;
+  
+
+}
+ @media screen and (min-width:500px) {
+  .grib-container{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  vertical-align: bottom;
+  position: relative;
+  right:250px;
+ 
+  
+ }
+body{
+  display: grid;
+  grid-template-columns: auto auto auto;
+position: relative;
+  left: 100px;
+}
+}
+.time-tracker-info{
+  background-color: hsl(246,80%,60%);
+  padding:10px;
+  padding-right:90px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  line-height: 5px;
+  
+}
+@media screen and (min-width:500px) {
+  .time-tracker-info{
+  display: block;
+  line-height:4px;
+  padding:55px;
+  
+  
+  
+
+}
+.avatar{
+  margin-right:20px;
+}
+
+}
+@media screen and(min-width:500px){
+  .option{
+  display: block;}
+}
+
+.time-tracker-menu{
+  background-color: hsl(235,46%,20%);
+  padding-bottom:30px;
+  border-radius: 10px;
+
+}
+ 
+.avatar{
+  width: clamp(4rem, 7vw,7.5rem);
+  border: 4px solid white;
+  border-radius: 100vw;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  flex:1 1 20%; 
+}
+.jeremy{
+  display: inline;
+  margin: 5px;
+}
+@media screen and(min-width:500px) {
+h2{
+  display:inherit
+} 
+
+
+}
+
+.btn{
+  font: inherit;
+  background: none;
+  border: none;
+  color: beige;
+  cursor: pointer;
+   
+}
+@media screen and (min-width:500px) {
+  .btn{
+    display: block;
+  }
+  .jeremy{
+    font-size:
+    
+  }
+}
+
+.btn:hover{
+  color: blueviolet;
+  background: wheat;
+}
+
+.work-infor{
+  background-color: hsl(15,100%,70%);
+  border-radius:35px;
+  margin: 10px;
+  width:250px;
+  height:240px;
+  overflow: hidden;
+  
+}
+
+  .work-infor-days{
+    font-size:small;
+
+  }
+ 
+
+.workbox{
+  background-color:hsl(235,46%,20%);
+  position: relative;
+  border-radius: 30px;
+  height:200px;
+  padding:10px;
+  line-height:8px;
+  
+
+}
+
+
+.Exercise-infor{
+  background-color: #4bcf83;
+  border-radius:35px;
+  margin: 10px;
+  width:250px;
+  height:230px;
+  overflow: hidden;
+  padding-top: 10px;
+ 
+}
+.exercise-infor-days{
+  font-size: small;
+}
+
+.excercise-box{
+  background-color:hsl(235,46%,20%);
+  position: relative;
+  border-radius: 30px;
+  height:250px;
+  padding:10px;
+ padding-bottom: 100px;
+  
+  
+}
+
+.play-infor{
+  background-color: hsl(195,74%,68%);
+  border-radius:35px;
+  margin: 10px;
+  width:250px;
+  height:240px;
+  overflow: hidden;
+
+}
+.play-infor-days{
+  font-size: small;
+}
+
+.play-box{
+  background-color:hsl(235,46%,20%);
+  position: relative;
+  border-radius: 30px;
+  height:200px;
+  padding:10px;
+  
+}
+
+
+.social-infor{
+  background-color: #7235d1;
+  border-radius:35px;
+  margin: 10px;
+  width:250px;
+  height:215px;
+  overflow: hidden;
+  padding-bottom: 25px;
+  
+}
+.social-infor-days{
+  font-size: small;
+}
+
+
+.social-box{
+  background-color:hsl(235,46%,20%);
+  position: relative;
+  border-radius: 30px;
+  height:250px;
+  padding:10px;
+  margin-top: -15px;
+
+}
+
+.study-infor{
+  background-color: hsl(348, 100%, 68%);
+  border-radius:35px;
+  margin: 10px;
+  width:250px;
+  height:240px;
+  overflow: hidden;
+}
+.study-infor-days{
+  font-size: small;
+}
+
+.study-box{
+  background-color: hsl(235,46%,20%);
+  position: relative;
+  border-radius: 30px;
+  height:200px;
+  padding:10px; 
+
+}
+
+.selfcare-infor{
+  background-color: hsl(43,84%,65%);
+  border-radius:35px;
+  margin: 10px;
+  width:250px;
+  height:240px;
+  overflow: hidden;
+}
+.selfcare-infor-days{
+  font-size: small;
+  margin-left:20px;
+}
+.selfcare-box{
+  background-color: hsl(235,46%,20%);
+position: relative;
+  border-radius: 30px;
+  height:200px;
+  padding:10px;
+ 
+  
+
+}
+.image{
+  margin-left:200px;
+}
+.image2{
+  margin-left:150px;
+}
+.data{
+  display: flex;
+}
+
+
+.work-infor-hours{
+  font-size:33px;
+  margin-bottom: 30px;
+
+
+}
+.work-data{
+  font-weight: bolder;
+}
+.work-infor-days{
+  margin-top:80px;
+  margin-left:20px;
+}
+
+
+
+.exercise-infor-days{
+  margin-left:60px;
+  margin-top: 60px;
+}
+.exercise-infor-hours{
+  font-size:40px;
+}
+.play-infor-days{
+  margin-top:50px;
+  margin-left:50px;
+}
+.play-infor-hours{
+  font-size:33px;
+  
+}
+
+.social-infor-days{
+  margin-left:60px;
+  margin-top: 50px;
+}
+.social-infor-hours{
+  font-size: 33px;
+}
+
+.study-infor-days{
+  margin-left:70px;
+  margin-top: 50px;
+}
+.study-infor-hours{
+  font-size:33px;
+}
+.selfcare-infor-days{
+  margin-left: 75px;
+  margin-top: 50px;
+}
+@media screen and(min-width:500px) {
+  .selfcare-infor-hours{
+    font-size: 300px;
+ 
+  }
+  
+}
+.selfcare-infor-hours{
+  font-size:33px;
+}
